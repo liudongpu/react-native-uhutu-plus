@@ -8,12 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		925FC4EF1E7FD79400023110 /* UhutuRnPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 925FC4ED1E7FD79400023110 /* UhutuRnPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925FC5541E7FE08900023110 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5531E7FE08900023110 /* libresolv.9.tbd */; };
+		925FC5561E7FE09400023110 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5551E7FE09400023110 /* libicucore.tbd */; };
+		925FC5581E7FE0A000023110 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5571E7FE0A000023110 /* libsqlite3.tbd */; };
+		925FC55A1E7FE0AE00023110 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5591E7FE0AE00023110 /* libz.tbd */; };
+		925FC55C1E7FE0BB00023110 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC55B1E7FE0BB00023110 /* libstdc++.6.0.9.tbd */; };
+		925FC55E1E7FE0C400023110 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC55D1E7FE0C400023110 /* CoreTelephony.framework */; };
+		925FC5601E7FE0CB00023110 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC55F1E7FE0CB00023110 /* MediaPlayer.framework */; };
+		925FC57E1E80D55000023110 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC57D1E80D55000023110 /* CFNetwork.framework */; };
+		925FC5801E80D55700023110 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC57F1E80D55700023110 /* SystemConfiguration.framework */; };
+		925FC5821E80D55E00023110 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5811E80D55E00023110 /* MobileCoreServices.framework */; };
+		925FC5841E80D56500023110 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5831E80D56500023110 /* AudioToolbox.framework */; };
+		925FC5861E80D56B00023110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5851E80D56B00023110 /* CoreGraphics.framework */; };
+		925FC5881E80D57100023110 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5871E80D57100023110 /* AVFoundation.framework */; };
+		925FC58A1E80D57700023110 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5891E80D57700023110 /* VideoToolbox.framework */; };
+		92D270FD1E8371460016F07A /* PlusYtx.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D270FC1E8371460016F07A /* PlusYtx.m */; };
+		92D271301E83C1780016F07A /* RnSdk in Resources */ = {isa = PBXBuildFile; fileRef = 92D2712F1E83C1770016F07A /* RnSdk */; };
+		92D271321E83C1810016F07A /* RnCode in Resources */ = {isa = PBXBuildFile; fileRef = 92D271311E83C1810016F07A /* RnCode */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		925FC4EA1E7FD79400023110 /* UhutuRnPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UhutuRnPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		925FC4ED1E7FD79400023110 /* UhutuRnPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UhutuRnPlus.h; sourceTree = "<group>"; };
 		925FC4EE1E7FD79400023110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925FC5531E7FE08900023110 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		925FC5551E7FE09400023110 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		925FC5571E7FE0A000023110 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		925FC5591E7FE0AE00023110 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		925FC55B1E7FE0BB00023110 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		925FC55D1E7FE0C400023110 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		925FC55F1E7FE0CB00023110 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		925FC57D1E80D55000023110 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		925FC57F1E80D55700023110 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		925FC5811E80D55E00023110 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		925FC5831E80D56500023110 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		925FC5851E80D56B00023110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		925FC5871E80D57100023110 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		925FC5891E80D57700023110 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		92D270FB1E8371120016F07A /* PlusYtx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusYtx.h; sourceTree = SOURCE_ROOT; };
+		92D270FC1E8371460016F07A /* PlusYtx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusYtx.m; sourceTree = "<group>"; };
+		92D2712F1E83C1770016F07A /* RnSdk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RnSdk; sourceTree = "<group>"; };
+		92D271311E83C1810016F07A /* RnCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RnCode; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +56,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925FC58A1E80D57700023110 /* VideoToolbox.framework in Frameworks */,
+				925FC5881E80D57100023110 /* AVFoundation.framework in Frameworks */,
+				925FC5861E80D56B00023110 /* CoreGraphics.framework in Frameworks */,
+				925FC5841E80D56500023110 /* AudioToolbox.framework in Frameworks */,
+				925FC5821E80D55E00023110 /* MobileCoreServices.framework in Frameworks */,
+				925FC5801E80D55700023110 /* SystemConfiguration.framework in Frameworks */,
+				925FC57E1E80D55000023110 /* CFNetwork.framework in Frameworks */,
+				925FC5601E7FE0CB00023110 /* MediaPlayer.framework in Frameworks */,
+				925FC55E1E7FE0C400023110 /* CoreTelephony.framework in Frameworks */,
+				925FC55C1E7FE0BB00023110 /* libstdc++.6.0.9.tbd in Frameworks */,
+				925FC55A1E7FE0AE00023110 /* libz.tbd in Frameworks */,
+				925FC5581E7FE0A000023110 /* libsqlite3.tbd in Frameworks */,
+				925FC5561E7FE09400023110 /* libicucore.tbd in Frameworks */,
+				925FC5541E7FE08900023110 /* libresolv.9.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +79,11 @@
 		925FC4E01E7FD79400023110 = {
 			isa = PBXGroup;
 			children = (
+				92D271311E83C1810016F07A /* RnCode */,
+				92D2712F1E83C1770016F07A /* RnSdk */,
 				925FC4EC1E7FD79400023110 /* UhutuRnPlus */,
 				925FC4EB1E7FD79400023110 /* Products */,
+				925FC5521E7FE08900023110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,8 +100,31 @@
 			children = (
 				925FC4ED1E7FD79400023110 /* UhutuRnPlus.h */,
 				925FC4EE1E7FD79400023110 /* Info.plist */,
+				92D270FB1E8371120016F07A /* PlusYtx.h */,
+				92D270FC1E8371460016F07A /* PlusYtx.m */,
 			);
 			path = UhutuRnPlus;
+			sourceTree = "<group>";
+		};
+		925FC5521E7FE08900023110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925FC5891E80D57700023110 /* VideoToolbox.framework */,
+				925FC5871E80D57100023110 /* AVFoundation.framework */,
+				925FC5851E80D56B00023110 /* CoreGraphics.framework */,
+				925FC5831E80D56500023110 /* AudioToolbox.framework */,
+				925FC5811E80D55E00023110 /* MobileCoreServices.framework */,
+				925FC57F1E80D55700023110 /* SystemConfiguration.framework */,
+				925FC57D1E80D55000023110 /* CFNetwork.framework */,
+				925FC55F1E7FE0CB00023110 /* MediaPlayer.framework */,
+				925FC55D1E7FE0C400023110 /* CoreTelephony.framework */,
+				925FC55B1E7FE0BB00023110 /* libstdc++.6.0.9.tbd */,
+				925FC5591E7FE0AE00023110 /* libz.tbd */,
+				925FC5571E7FE0A000023110 /* libsqlite3.tbd */,
+				925FC5551E7FE09400023110 /* libicucore.tbd */,
+				925FC5531E7FE08900023110 /* libresolv.9.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D271301E83C1780016F07A /* RnSdk in Resources */,
+				92D271321E83C1810016F07A /* RnCode in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D270FD1E8371460016F07A /* PlusYtx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +364,7 @@
 				925FC4F41E7FD79400023110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,31 @@
+{
+  "name": "react-native-uhutu-plus",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oney/react-native-uhutu-plus.git"
+  },
+  "nativePackage": true,
+  "description": "Plus",
+  "author": {
+    "name": "srnpr",
+    "email": "srnpr@sina.com"
+  },
+  "homepage": "https://github.com/liudongpu/react-native-uhutu-plus",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "uhutu"
+  ],
+  "dependencies": {
+    
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
+  "bugs": {
+    "url": "https://github.com/liudongpu/react-native-uhutu-plus/issues"
+  }
+}

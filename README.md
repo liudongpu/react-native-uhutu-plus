@@ -1,2 +1,5 @@
 # uhutu-rn-plus
-uhutu react native plus
+
+
+
+cp -r ~/react/react-native-uhutu-plus/ ~/react/chat/node_modules/
