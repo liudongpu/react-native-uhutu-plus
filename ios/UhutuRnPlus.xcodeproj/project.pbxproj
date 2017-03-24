@@ -133,6 +133,10 @@
 		92D28E021E84B678004A002B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D121E84B678004A002B /* AFURLResponseSerialization.m */; };
 		92D28E031E84B678004A002B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D131E84B678004A002B /* AFURLSessionManager.h */; };
 		92D28E041E84B678004A002B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D141E84B678004A002B /* AFURLSessionManager.m */; };
+		92D28ECC1E84B903004A002B /* DeviceDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28EC81E84B903004A002B /* DeviceDBHelper.h */; };
+		92D28ECD1E84B903004A002B /* DeviceDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28EC91E84B903004A002B /* DeviceDBHelper.m */; };
+		92D28ECE1E84B903004A002B /* IMMsgDBAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28ECA1E84B903004A002B /* IMMsgDBAccess.h */; };
+		92D28ECF1E84B903004A002B /* IMMsgDBAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28ECB1E84B903004A002B /* IMMsgDBAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -265,6 +269,10 @@
 		92D28D121E84B678004A002B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		92D28D131E84B678004A002B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		92D28D141E84B678004A002B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		92D28EC81E84B903004A002B /* DeviceDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDBHelper.h; sourceTree = "<group>"; };
+		92D28EC91E84B903004A002B /* DeviceDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDBHelper.m; sourceTree = "<group>"; };
+		92D28ECA1E84B903004A002B /* IMMsgDBAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMsgDBAccess.h; sourceTree = "<group>"; };
+		92D28ECB1E84B903004A002B /* IMMsgDBAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMsgDBAccess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,6 +477,7 @@
 		92D272E21E84AE850016F07A /* Ytx */ = {
 			isa = PBXGroup;
 			children = (
+				92D28EC71E84B903004A002B /* DB */,
 				92D28D061E84B678004A002B /* thirdparty */,
 				92D28CB11E84B0C4004A002B /* Tool */,
 				92D272E31E84AE850016F07A /* DeviceDelegateHelper */,
@@ -612,6 +621,17 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		92D28EC71E84B903004A002B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				92D28EC81E84B903004A002B /* DeviceDBHelper.h */,
+				92D28EC91E84B903004A002B /* DeviceDBHelper.m */,
+				92D28ECA1E84B903004A002B /* IMMsgDBAccess.h */,
+				92D28ECB1E84B903004A002B /* IMMsgDBAccess.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -666,8 +686,10 @@
 				925FC4EF1E7FD79400023110 /* UhutuRnPlus.h in Headers */,
 				92D272C91E84AE570016F07A /* ECImageMessageBody.h in Headers */,
 				92D272DA1E84AE570016F07A /* ECTextMessageBody.h in Headers */,
+				92D28ECC1E84B903004A002B /* DeviceDBHelper.h in Headers */,
 				92D272B61E84AE570016F07A /* ECDeskManager.h in Headers */,
 				92D272AD1E84AE570016F07A /* ECNetworkDelegate.h in Headers */,
+				92D28ECE1E84B903004A002B /* IMMsgDBAccess.h in Headers */,
 				92D272D71E84AE570016F07A /* ECProgressDelegate.h in Headers */,
 				92D272EE1E84AE850016F07A /* DeviceDelegateHelper+Meeting.h in Headers */,
 				92D272B11E84AE570016F07A /* ECDeviceDelegate.h in Headers */,
@@ -779,12 +801,14 @@
 				92D270FD1E8371460016F07A /* PlusYtx.m in Sources */,
 				92D28CF71E84B0C4004A002B /* AFNHttpTool.m in Sources */,
 				92D28CEF1E84B0C4004A002B /* DemoGlobalClass.m in Sources */,
+				92D28ECD1E84B903004A002B /* DeviceDBHelper.m in Sources */,
 				92D272ED1E84AE850016F07A /* DeviceChatHelper.m in Sources */,
 				92D28CFD1E84B0C4004A002B /* InputToolBarView.m in Sources */,
 				92D28CF11E84B0C4004A002B /* TransmitContactViewController.m in Sources */,
 				92D28CE51E84B0C4004A002B /* CommonTools.m in Sources */,
 				92D28DFE1E84B678004A002B /* AFSecurityPolicy.m in Sources */,
 				92D28CF91E84B0C4004A002B /* ChangeVoiceView.m in Sources */,
+				92D28ECF1E84B903004A002B /* IMMsgDBAccess.m in Sources */,
 				92D272F11E84AE850016F07A /* DeviceDelegateHelper+VoIP.m in Sources */,
 				92D28DF91E84B678004A002B /* AFHTTPSessionManager.m in Sources */,
 				92D28E041E84B678004A002B /* AFURLSessionManager.m in Sources */,
