@@ -90,6 +90,49 @@
 		92D272F11E84AE850016F07A /* DeviceDelegateHelper+VoIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272E91E84AE850016F07A /* DeviceDelegateHelper+VoIP.m */; };
 		92D272F21E84AE850016F07A /* DeviceDelegateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272EA1E84AE850016F07A /* DeviceDelegateHelper.h */; };
 		92D272F31E84AE850016F07A /* DeviceDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272EB1E84AE850016F07A /* DeviceDelegateHelper.m */; };
+		92D28CE01E84B0C4004A002B /* AddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CB31E84B0C4004A002B /* AddressBook.h */; };
+		92D28CE11E84B0C4004A002B /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CB41E84B0C4004A002B /* AddressBook.m */; };
+		92D28CE21E84B0C4004A002B /* AddressBookManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CB51E84B0C4004A002B /* AddressBookManager.h */; };
+		92D28CE31E84B0C4004A002B /* AddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CB61E84B0C4004A002B /* AddressBookManager.m */; };
+		92D28CE41E84B0C4004A002B /* CommonTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CB71E84B0C4004A002B /* CommonTools.h */; };
+		92D28CE51E84B0C4004A002B /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CB81E84B0C4004A002B /* CommonTools.m */; };
+		92D28CEE1E84B0C4004A002B /* DemoGlobalClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CC21E84B0C4004A002B /* DemoGlobalClass.h */; };
+		92D28CEF1E84B0C4004A002B /* DemoGlobalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CC31E84B0C4004A002B /* DemoGlobalClass.m */; };
+		92D28CF01E84B0C4004A002B /* TransmitContactViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CC51E84B0C4004A002B /* TransmitContactViewController.h */; };
+		92D28CF11E84B0C4004A002B /* TransmitContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CC61E84B0C4004A002B /* TransmitContactViewController.m */; };
+		92D28CF21E84B0C4004A002B /* CustomEmojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CC81E84B0C4004A002B /* CustomEmojiView.h */; };
+		92D28CF31E84B0C4004A002B /* CustomEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CC91E84B0C4004A002B /* CustomEmojiView.m */; };
+		92D28CF41E84B0C4004A002B /* EmojiConvertor.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CCA1E84B0C4004A002B /* EmojiConvertor.h */; };
+		92D28CF51E84B0C4004A002B /* EmojiConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CCB1E84B0C4004A002B /* EmojiConvertor.m */; };
+		92D28CF61E84B0C4004A002B /* AFNHttpTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CCD1E84B0C4004A002B /* AFNHttpTool.h */; };
+		92D28CF71E84B0C4004A002B /* AFNHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CCE1E84B0C4004A002B /* AFNHttpTool.m */; };
+		92D28CF81E84B0C4004A002B /* ChangeVoiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CD01E84B0C4004A002B /* ChangeVoiceView.h */; };
+		92D28CF91E84B0C4004A002B /* ChangeVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CD11E84B0C4004A002B /* ChangeVoiceView.m */; };
+		92D28CFA1E84B0C4004A002B /* ECDeviceVoiceRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CD21E84B0C4004A002B /* ECDeviceVoiceRecordView.h */; };
+		92D28CFB1E84B0C4004A002B /* ECDeviceVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CD31E84B0C4004A002B /* ECDeviceVoiceRecordView.m */; };
+		92D28CFC1E84B0C4004A002B /* InputToolBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CD41E84B0C4004A002B /* InputToolBarView.h */; };
+		92D28CFD1E84B0C4004A002B /* InputToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CD51E84B0C4004A002B /* InputToolBarView.m */; };
+		92D28CFE1E84B0C4004A002B /* MoreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CD61E84B0C4004A002B /* MoreView.h */; };
+		92D28CFF1E84B0C4004A002B /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CD71E84B0C4004A002B /* MoreView.m */; };
+		92D28D001E84B0C4004A002B /* ECLocationPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CD91E84B0C4004A002B /* ECLocationPoint.h */; };
+		92D28D011E84B0C4004A002B /* ECLocationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CDA1E84B0C4004A002B /* ECLocationPoint.m */; };
+		92D28D021E84B0C4004A002B /* ECLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CDB1E84B0C4004A002B /* ECLocationViewController.h */; };
+		92D28D031E84B0C4004A002B /* ECLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CDC1E84B0C4004A002B /* ECLocationViewController.m */; };
+		92D28D041E84B0C4004A002B /* WebBrowserBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28CDE1E84B0C4004A002B /* WebBrowserBaseViewController.h */; };
+		92D28D051E84B0C4004A002B /* WebBrowserBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28CDF1E84B0C4004A002B /* WebBrowserBaseViewController.m */; };
+		92D28DF81E84B678004A002B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D081E84B678004A002B /* AFHTTPSessionManager.h */; };
+		92D28DF91E84B678004A002B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D091E84B678004A002B /* AFHTTPSessionManager.m */; };
+		92D28DFA1E84B678004A002B /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D0A1E84B678004A002B /* AFNetworking.h */; };
+		92D28DFB1E84B678004A002B /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D0B1E84B678004A002B /* AFNetworkReachabilityManager.h */; };
+		92D28DFC1E84B678004A002B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D0C1E84B678004A002B /* AFNetworkReachabilityManager.m */; };
+		92D28DFD1E84B678004A002B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D0D1E84B678004A002B /* AFSecurityPolicy.h */; };
+		92D28DFE1E84B678004A002B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D0E1E84B678004A002B /* AFSecurityPolicy.m */; };
+		92D28DFF1E84B678004A002B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D0F1E84B678004A002B /* AFURLRequestSerialization.h */; };
+		92D28E001E84B678004A002B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D101E84B678004A002B /* AFURLRequestSerialization.m */; };
+		92D28E011E84B678004A002B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D111E84B678004A002B /* AFURLResponseSerialization.h */; };
+		92D28E021E84B678004A002B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D121E84B678004A002B /* AFURLResponseSerialization.m */; };
+		92D28E031E84B678004A002B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D28D131E84B678004A002B /* AFURLSessionManager.h */; };
+		92D28E041E84B678004A002B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D28D141E84B678004A002B /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +222,49 @@
 		92D272E91E84AE850016F07A /* DeviceDelegateHelper+VoIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceDelegateHelper+VoIP.m"; sourceTree = "<group>"; };
 		92D272EA1E84AE850016F07A /* DeviceDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDelegateHelper.h; sourceTree = "<group>"; };
 		92D272EB1E84AE850016F07A /* DeviceDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDelegateHelper.m; sourceTree = "<group>"; };
+		92D28CB31E84B0C4004A002B /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		92D28CB41E84B0C4004A002B /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		92D28CB51E84B0C4004A002B /* AddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookManager.h; sourceTree = "<group>"; };
+		92D28CB61E84B0C4004A002B /* AddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookManager.m; sourceTree = "<group>"; };
+		92D28CB71E84B0C4004A002B /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		92D28CB81E84B0C4004A002B /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		92D28CC21E84B0C4004A002B /* DemoGlobalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoGlobalClass.h; sourceTree = "<group>"; };
+		92D28CC31E84B0C4004A002B /* DemoGlobalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoGlobalClass.m; sourceTree = "<group>"; };
+		92D28CC51E84B0C4004A002B /* TransmitContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmitContactViewController.h; sourceTree = "<group>"; };
+		92D28CC61E84B0C4004A002B /* TransmitContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransmitContactViewController.m; sourceTree = "<group>"; };
+		92D28CC81E84B0C4004A002B /* CustomEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmojiView.h; sourceTree = "<group>"; };
+		92D28CC91E84B0C4004A002B /* CustomEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmojiView.m; sourceTree = "<group>"; };
+		92D28CCA1E84B0C4004A002B /* EmojiConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiConvertor.h; sourceTree = "<group>"; };
+		92D28CCB1E84B0C4004A002B /* EmojiConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiConvertor.m; sourceTree = "<group>"; };
+		92D28CCD1E84B0C4004A002B /* AFNHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNHttpTool.h; sourceTree = "<group>"; };
+		92D28CCE1E84B0C4004A002B /* AFNHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNHttpTool.m; sourceTree = "<group>"; };
+		92D28CD01E84B0C4004A002B /* ChangeVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeVoiceView.h; sourceTree = "<group>"; };
+		92D28CD11E84B0C4004A002B /* ChangeVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeVoiceView.m; sourceTree = "<group>"; };
+		92D28CD21E84B0C4004A002B /* ECDeviceVoiceRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceVoiceRecordView.h; sourceTree = "<group>"; };
+		92D28CD31E84B0C4004A002B /* ECDeviceVoiceRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECDeviceVoiceRecordView.m; sourceTree = "<group>"; };
+		92D28CD41E84B0C4004A002B /* InputToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputToolBarView.h; sourceTree = "<group>"; };
+		92D28CD51E84B0C4004A002B /* InputToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputToolBarView.m; sourceTree = "<group>"; };
+		92D28CD61E84B0C4004A002B /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
+		92D28CD71E84B0C4004A002B /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
+		92D28CD91E84B0C4004A002B /* ECLocationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLocationPoint.h; sourceTree = "<group>"; };
+		92D28CDA1E84B0C4004A002B /* ECLocationPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLocationPoint.m; sourceTree = "<group>"; };
+		92D28CDB1E84B0C4004A002B /* ECLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLocationViewController.h; sourceTree = "<group>"; };
+		92D28CDC1E84B0C4004A002B /* ECLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLocationViewController.m; sourceTree = "<group>"; };
+		92D28CDE1E84B0C4004A002B /* WebBrowserBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserBaseViewController.h; sourceTree = "<group>"; };
+		92D28CDF1E84B0C4004A002B /* WebBrowserBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserBaseViewController.m; sourceTree = "<group>"; };
+		92D28D081E84B678004A002B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		92D28D091E84B678004A002B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		92D28D0A1E84B678004A002B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		92D28D0B1E84B678004A002B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		92D28D0C1E84B678004A002B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		92D28D0D1E84B678004A002B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		92D28D0E1E84B678004A002B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		92D28D0F1E84B678004A002B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		92D28D101E84B678004A002B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		92D28D111E84B678004A002B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		92D28D121E84B678004A002B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		92D28D131E84B678004A002B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		92D28D141E84B678004A002B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +469,8 @@
 		92D272E21E84AE850016F07A /* Ytx */ = {
 			isa = PBXGroup;
 			children = (
+				92D28D061E84B678004A002B /* thirdparty */,
+				92D28CB11E84B0C4004A002B /* Tool */,
 				92D272E31E84AE850016F07A /* DeviceDelegateHelper */,
 			);
 			path = Ytx;
@@ -403,6 +491,127 @@
 			path = DeviceDelegateHelper;
 			sourceTree = "<group>";
 		};
+		92D28CB11E84B0C4004A002B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CB21E84B0C4004A002B /* AddressBook */,
+				92D28CB71E84B0C4004A002B /* CommonTools.h */,
+				92D28CB81E84B0C4004A002B /* CommonTools.m */,
+				92D28CC21E84B0C4004A002B /* DemoGlobalClass.h */,
+				92D28CC31E84B0C4004A002B /* DemoGlobalClass.m */,
+				92D28CC41E84B0C4004A002B /* ECTransmitMessage */,
+				92D28CC71E84B0C4004A002B /* EmojiTool */,
+				92D28CCC1E84B0C4004A002B /* HttpTool */,
+				92D28CCF1E84B0C4004A002B /* KeyboardToolBar */,
+				92D28CD81E84B0C4004A002B /* Location */,
+				92D28CDD1E84B0C4004A002B /* WebBrowser */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		92D28CB21E84B0C4004A002B /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CB31E84B0C4004A002B /* AddressBook.h */,
+				92D28CB41E84B0C4004A002B /* AddressBook.m */,
+				92D28CB51E84B0C4004A002B /* AddressBookManager.h */,
+				92D28CB61E84B0C4004A002B /* AddressBookManager.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		92D28CC41E84B0C4004A002B /* ECTransmitMessage */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CC51E84B0C4004A002B /* TransmitContactViewController.h */,
+				92D28CC61E84B0C4004A002B /* TransmitContactViewController.m */,
+			);
+			path = ECTransmitMessage;
+			sourceTree = "<group>";
+		};
+		92D28CC71E84B0C4004A002B /* EmojiTool */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CC81E84B0C4004A002B /* CustomEmojiView.h */,
+				92D28CC91E84B0C4004A002B /* CustomEmojiView.m */,
+				92D28CCA1E84B0C4004A002B /* EmojiConvertor.h */,
+				92D28CCB1E84B0C4004A002B /* EmojiConvertor.m */,
+			);
+			path = EmojiTool;
+			sourceTree = "<group>";
+		};
+		92D28CCC1E84B0C4004A002B /* HttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CCD1E84B0C4004A002B /* AFNHttpTool.h */,
+				92D28CCE1E84B0C4004A002B /* AFNHttpTool.m */,
+			);
+			path = HttpTool;
+			sourceTree = "<group>";
+		};
+		92D28CCF1E84B0C4004A002B /* KeyboardToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CD01E84B0C4004A002B /* ChangeVoiceView.h */,
+				92D28CD11E84B0C4004A002B /* ChangeVoiceView.m */,
+				92D28CD21E84B0C4004A002B /* ECDeviceVoiceRecordView.h */,
+				92D28CD31E84B0C4004A002B /* ECDeviceVoiceRecordView.m */,
+				92D28CD41E84B0C4004A002B /* InputToolBarView.h */,
+				92D28CD51E84B0C4004A002B /* InputToolBarView.m */,
+				92D28CD61E84B0C4004A002B /* MoreView.h */,
+				92D28CD71E84B0C4004A002B /* MoreView.m */,
+			);
+			path = KeyboardToolBar;
+			sourceTree = "<group>";
+		};
+		92D28CD81E84B0C4004A002B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CD91E84B0C4004A002B /* ECLocationPoint.h */,
+				92D28CDA1E84B0C4004A002B /* ECLocationPoint.m */,
+				92D28CDB1E84B0C4004A002B /* ECLocationViewController.h */,
+				92D28CDC1E84B0C4004A002B /* ECLocationViewController.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		92D28CDD1E84B0C4004A002B /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				92D28CDE1E84B0C4004A002B /* WebBrowserBaseViewController.h */,
+				92D28CDF1E84B0C4004A002B /* WebBrowserBaseViewController.m */,
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		92D28D061E84B678004A002B /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				92D28D071E84B678004A002B /* AFNetworking */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		92D28D071E84B678004A002B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				92D28D081E84B678004A002B /* AFHTTPSessionManager.h */,
+				92D28D091E84B678004A002B /* AFHTTPSessionManager.m */,
+				92D28D0A1E84B678004A002B /* AFNetworking.h */,
+				92D28D0B1E84B678004A002B /* AFNetworkReachabilityManager.h */,
+				92D28D0C1E84B678004A002B /* AFNetworkReachabilityManager.m */,
+				92D28D0D1E84B678004A002B /* AFSecurityPolicy.h */,
+				92D28D0E1E84B678004A002B /* AFSecurityPolicy.m */,
+				92D28D0F1E84B678004A002B /* AFURLRequestSerialization.h */,
+				92D28D101E84B678004A002B /* AFURLRequestSerialization.m */,
+				92D28D111E84B678004A002B /* AFURLResponseSerialization.h */,
+				92D28D121E84B678004A002B /* AFURLResponseSerialization.m */,
+				92D28D131E84B678004A002B /* AFURLSessionManager.h */,
+				92D28D141E84B678004A002B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -411,32 +620,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D272AE1E84AE570016F07A /* ECSystemDelegate.h in Headers */,
+				92D28DFD1E84B678004A002B /* AFSecurityPolicy.h in Headers */,
 				92D272A91E84AE570016F07A /* ECDeskDelegate.h in Headers */,
 				92D272D01E84AE570016F07A /* ECMessageBody.h in Headers */,
+				92D28DFA1E84B678004A002B /* AFNetworking.h in Headers */,
 				92D272D21E84AE570016F07A /* ECMultiDeviceState.h in Headers */,
 				92D272BA1E84AE570016F07A /* ECMessageManager.h in Headers */,
 				92D272D11E84AE570016F07A /* ECMessageNotifyMsg.h in Headers */,
 				92D272A71E84AE570016F07A /* ECChatDelegate.h in Headers */,
+				92D28E011E84B678004A002B /* AFURLResponseSerialization.h in Headers */,
 				92D272DB1E84AE570016F07A /* ECUserState.h in Headers */,
 				92D272C71E84AE570016F07A /* ECGroupNoticeMessage.h in Headers */,
+				92D28CF21E84B0C4004A002B /* CustomEmojiView.h in Headers */,
 				92D272B31E84AE570016F07A /* ECEnumDefs.h in Headers */,
 				92D272C41E84AE570016F07A /* ECGroup.h in Headers */,
 				92D272BC1E84AE570016F07A /* ECVoIPManager.h in Headers */,
 				92D272CD1E84AE570016F07A /* ECMeetingMember.h in Headers */,
 				92D272A81E84AE570016F07A /* ECDelegateBase.h in Headers */,
+				92D28CFA1E84B0C4004A002B /* ECDeviceVoiceRecordView.h in Headers */,
 				92D272B71E84AE570016F07A /* ECGroupManager.h in Headers */,
 				92D272D61E84AE570016F07A /* ECPreviewMessageBody.h in Headers */,
 				92D272E01E84AE570016F07A /* VoipCall.h in Headers */,
+				92D28DFB1E84B678004A002B /* AFNetworkReachabilityManager.h in Headers */,
 				92D272BD1E84AE570016F07A /* ECVoIPSetManager.h in Headers */,
 				92D272B91E84AE570016F07A /* ECMeetingManager.h in Headers */,
+				92D28CF81E84B0C4004A002B /* ChangeVoiceView.h in Headers */,
 				92D272BB1E84AE570016F07A /* ECVoIPCallManager.h in Headers */,
 				92D272AC1E84AE570016F07A /* ECMessageDelegate.h in Headers */,
+				92D28CEE1E84B0C4004A002B /* DemoGlobalClass.h in Headers */,
+				92D28D041E84B0C4004A002B /* WebBrowserBaseViewController.h in Headers */,
+				92D28CF41E84B0C4004A002B /* EmojiConvertor.h in Headers */,
 				92D272C11E84AE570016F07A /* ECCreateMeetingParams.h in Headers */,
 				92D272CA1E84AE570016F07A /* ECInterphoneMeetingMsg.h in Headers */,
+				92D28CF01E84B0C4004A002B /* TransmitContactViewController.h in Headers */,
 				92D272AB1E84AE570016F07A /* ECMeetingDelegate.h in Headers */,
+				92D28CE01E84B0C4004A002B /* AddressBook.h in Headers */,
+				92D28DFF1E84B678004A002B /* AFURLRequestSerialization.h in Headers */,
 				92D272D81E84AE570016F07A /* ECReadMessageMember.h in Headers */,
 				92D272C61E84AE570016F07A /* ECGroupMember.h in Headers */,
 				92D272DF1E84AE570016F07A /* NetworkStatistic.h in Headers */,
+				92D28D001E84B0C4004A002B /* ECLocationPoint.h in Headers */,
+				92D28E031E84B678004A002B /* AFURLSessionManager.h in Headers */,
 				92D272C81E84AE570016F07A /* ECGroupOption.h in Headers */,
 				92D272CE1E84AE570016F07A /* ECMeetingRoom.h in Headers */,
 				925FC4EF1E7FD79400023110 /* UhutuRnPlus.h in Headers */,
@@ -447,7 +671,10 @@
 				92D272D71E84AE570016F07A /* ECProgressDelegate.h in Headers */,
 				92D272EE1E84AE850016F07A /* DeviceDelegateHelper+Meeting.h in Headers */,
 				92D272B11E84AE570016F07A /* ECDeviceDelegate.h in Headers */,
+				92D28D021E84B0C4004A002B /* ECLocationViewController.h in Headers */,
+				92D28DF81E84B678004A002B /* AFHTTPSessionManager.h in Headers */,
 				92D272F01E84AE850016F07A /* DeviceDelegateHelper+VoIP.h in Headers */,
+				92D28CF61E84B0C4004A002B /* AFNHttpTool.h in Headers */,
 				92D272DE1E84AE570016F07A /* ECVoiceMessageBody.h in Headers */,
 				92D272D41E84AE570016F07A /* ECMultiVoiceMeetingMsg.h in Headers */,
 				92D272CB1E84AE570016F07A /* ECLocationMessageBody.h in Headers */,
@@ -456,17 +683,21 @@
 				92D272D91E84AE570016F07A /* ECSountTouchConfig.h in Headers */,
 				92D272D31E84AE570016F07A /* ECMultiVideoMeetingMsg.h in Headers */,
 				92D272AA1E84AE570016F07A /* ECGroupDelegate.h in Headers */,
+				92D28CFC1E84B0C4004A002B /* InputToolBarView.h in Headers */,
 				92D272B21E84AE570016F07A /* ECDeviceHeaders.h in Headers */,
 				92D272B01E84AE570016F07A /* ECDevice.h in Headers */,
 				92D272BE1E84AE570016F07A /* CameraDeviceInfo.h in Headers */,
 				92D272B51E84AE570016F07A /* ECChatManager.h in Headers */,
+				92D28CFE1E84B0C4004A002B /* MoreView.h in Headers */,
 				92D272CF1E84AE570016F07A /* ECMessage.h in Headers */,
 				92D272F21E84AE850016F07A /* DeviceDelegateHelper.h in Headers */,
 				92D272EC1E84AE850016F07A /* DeviceChatHelper.h in Headers */,
+				92D28CE21E84B0C4004A002B /* AddressBookManager.h in Headers */,
 				92D272D51E84AE570016F07A /* ECPersonInfo.h in Headers */,
 				92D272CC1E84AE570016F07A /* ECLoginInfo.h in Headers */,
 				92D272AF1E84AE570016F07A /* ECVoIPCallDelegate.h in Headers */,
 				92D272C01E84AE570016F07A /* ECCallMessageBody.h in Headers */,
+				92D28CE41E84B0C4004A002B /* CommonTools.h in Headers */,
 				92D272BF1E84AE570016F07A /* ECAudioConfig.h in Headers */,
 				92D272C31E84AE570016F07A /* ECFileMessageBody.h in Headers */,
 				92D272DC1E84AE570016F07A /* ECUserStateMessageBody.h in Headers */,
@@ -544,9 +775,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D28CF51E84B0C4004A002B /* EmojiConvertor.m in Sources */,
 				92D270FD1E8371460016F07A /* PlusYtx.m in Sources */,
+				92D28CF71E84B0C4004A002B /* AFNHttpTool.m in Sources */,
+				92D28CEF1E84B0C4004A002B /* DemoGlobalClass.m in Sources */,
 				92D272ED1E84AE850016F07A /* DeviceChatHelper.m in Sources */,
+				92D28CFD1E84B0C4004A002B /* InputToolBarView.m in Sources */,
+				92D28CF11E84B0C4004A002B /* TransmitContactViewController.m in Sources */,
+				92D28CE51E84B0C4004A002B /* CommonTools.m in Sources */,
+				92D28DFE1E84B678004A002B /* AFSecurityPolicy.m in Sources */,
+				92D28CF91E84B0C4004A002B /* ChangeVoiceView.m in Sources */,
 				92D272F11E84AE850016F07A /* DeviceDelegateHelper+VoIP.m in Sources */,
+				92D28DF91E84B678004A002B /* AFHTTPSessionManager.m in Sources */,
+				92D28E041E84B678004A002B /* AFURLSessionManager.m in Sources */,
+				92D28DFC1E84B678004A002B /* AFNetworkReachabilityManager.m in Sources */,
+				92D28D051E84B0C4004A002B /* WebBrowserBaseViewController.m in Sources */,
+				92D28CE31E84B0C4004A002B /* AddressBookManager.m in Sources */,
+				92D28D031E84B0C4004A002B /* ECLocationViewController.m in Sources */,
+				92D28E021E84B678004A002B /* AFURLResponseSerialization.m in Sources */,
+				92D28E001E84B678004A002B /* AFURLRequestSerialization.m in Sources */,
+				92D28CE11E84B0C4004A002B /* AddressBook.m in Sources */,
+				92D28CFF1E84B0C4004A002B /* MoreView.m in Sources */,
+				92D28CFB1E84B0C4004A002B /* ECDeviceVoiceRecordView.m in Sources */,
+				92D28CF31E84B0C4004A002B /* CustomEmojiView.m in Sources */,
+				92D28D011E84B0C4004A002B /* ECLocationPoint.m in Sources */,
 				92D272EF1E84AE850016F07A /* DeviceDelegateHelper+Meeting.m in Sources */,
 				92D272F31E84AE850016F07A /* DeviceDelegateHelper.m in Sources */,
 			);
@@ -596,7 +848,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -641,7 +895,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -659,14 +915,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/BQMM_SDK/BQMM",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/Required",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
 				INFOPLIST_FILE = UhutuRnPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YTX_iOS_Full_SDK/lib",
 					"$(PROJECT_DIR)/RnSdk/YTX_iOS_Full_SDK/lib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/Redpacket/AliPay/AlipayLib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/Redpacket/RedpacketStaticLib/lib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uhutu.rn.UhutuRnPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -682,14 +948,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/BQMM_SDK/BQMM",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/Required",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
 				INFOPLIST_FILE = UhutuRnPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YTX_iOS_Full_SDK/lib",
 					"$(PROJECT_DIR)/RnSdk/YTX_iOS_Full_SDK/lib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/Redpacket/AliPay/AlipayLib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/Redpacket/RedpacketStaticLib/lib",
+					"$(PROJECT_DIR)/RnCode/Ytx/thirdparty/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uhutu.rn.UhutuRnPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,7 +7,6 @@
 //
 
 #import "DeviceChatHelper.h"
-#import "EmojiConvertor.h"
 #import "ECUserStateMessageBody.h"
 
 @implementation DeviceChatHelper

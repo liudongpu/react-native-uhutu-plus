@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <AudioToolbox/AudioServices.h>
-
+#import "ECProgressDelegate.h"
+#import "ECMessage.h"
+#import "ECError.h"
 #import "ECFileMessageBody.h"
 
 #define KNOTIFICATION_SendMessageCompletion       @"KNOTIFICATION_SendMessageCompletion"
@@ -25,7 +27,6 @@
 
 -(ECMessage*)sendMessage:(ECMessage*)message;
 
--(ECMessage*)sendLocationMessage:(CLLocationCoordinate2D)coordinate andTitle:(NSString *)title to:(NSString*)to;
 
 -(ECMessage*)sendTextMessage:(NSString*)text to:(NSString*)to;
 -(ECMessage*)sendTextMessage:(NSString*)text to:(NSString*)to withUserData:(NSString*)userData;
