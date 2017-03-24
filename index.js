@@ -10,7 +10,9 @@ const nativeModule = NativeModules.PlusYtx ;
 
 export default class PlusYtx extends Component {
 
-  
+  componentWillMount() {
+    nativeModule.testPrint("aaaddddvff");
+  }
 
   
 
