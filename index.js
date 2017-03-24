@@ -12,7 +12,7 @@ const nativeModule = NativeModules.UhutuPlus ;
 export default class PlusYtx extends Component {
 
   componentWillMount() {
-    nativeModule.testPrint("aaaddddvff");
+    nativeModule.testPrint("aaaddddvff",{a:'aa'});
   }
 
   
