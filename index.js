@@ -2,9 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import {
   Text,
   View,
+  NativeModules
 } from 'react-native';
 
-const nativeModule = NativeModules.PlusYtx ;
+const nativeModule = NativeModules.UhutuPlus ;
 
 
 
