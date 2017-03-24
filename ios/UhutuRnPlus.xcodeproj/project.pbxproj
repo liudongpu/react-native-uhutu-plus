@@ -23,8 +23,73 @@
 		925FC5881E80D57100023110 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5871E80D57100023110 /* AVFoundation.framework */; };
 		925FC58A1E80D57700023110 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FC5891E80D57700023110 /* VideoToolbox.framework */; };
 		92D270FD1E8371460016F07A /* PlusYtx.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D270FC1E8371460016F07A /* PlusYtx.m */; };
-		92D271301E83C1780016F07A /* RnSdk in Resources */ = {isa = PBXBuildFile; fileRef = 92D2712F1E83C1770016F07A /* RnSdk */; };
-		92D271321E83C1810016F07A /* RnCode in Resources */ = {isa = PBXBuildFile; fileRef = 92D271311E83C1810016F07A /* RnCode */; };
+		92D272A61E84AE570016F07A /* CCPSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92D272661E84AE570016F07A /* CCPSDKBundle.bundle */; };
+		92D272A71E84AE570016F07A /* ECChatDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272681E84AE570016F07A /* ECChatDelegate.h */; };
+		92D272A81E84AE570016F07A /* ECDelegateBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272691E84AE570016F07A /* ECDelegateBase.h */; };
+		92D272A91E84AE570016F07A /* ECDeskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726A1E84AE570016F07A /* ECDeskDelegate.h */; };
+		92D272AA1E84AE570016F07A /* ECGroupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726B1E84AE570016F07A /* ECGroupDelegate.h */; };
+		92D272AB1E84AE570016F07A /* ECMeetingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726C1E84AE570016F07A /* ECMeetingDelegate.h */; };
+		92D272AC1E84AE570016F07A /* ECMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726D1E84AE570016F07A /* ECMessageDelegate.h */; };
+		92D272AD1E84AE570016F07A /* ECNetworkDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726E1E84AE570016F07A /* ECNetworkDelegate.h */; };
+		92D272AE1E84AE570016F07A /* ECSystemDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2726F1E84AE570016F07A /* ECSystemDelegate.h */; };
+		92D272AF1E84AE570016F07A /* ECVoIPCallDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272701E84AE570016F07A /* ECVoIPCallDelegate.h */; };
+		92D272B01E84AE570016F07A /* ECDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272711E84AE570016F07A /* ECDevice.h */; };
+		92D272B11E84AE570016F07A /* ECDeviceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272721E84AE570016F07A /* ECDeviceDelegate.h */; };
+		92D272B21E84AE570016F07A /* ECDeviceHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272731E84AE570016F07A /* ECDeviceHeaders.h */; };
+		92D272B31E84AE570016F07A /* ECEnumDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272751E84AE570016F07A /* ECEnumDefs.h */; };
+		92D272B41E84AE570016F07A /* YTX_iOS_Full_SDK_v5.3.1r1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D272771E84AE570016F07A /* YTX_iOS_Full_SDK_v5.3.1r1.a */; };
+		92D272B51E84AE570016F07A /* ECChatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272791E84AE570016F07A /* ECChatManager.h */; };
+		92D272B61E84AE570016F07A /* ECDeskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727A1E84AE570016F07A /* ECDeskManager.h */; };
+		92D272B71E84AE570016F07A /* ECGroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727B1E84AE570016F07A /* ECGroupManager.h */; };
+		92D272B81E84AE570016F07A /* ECManagerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727C1E84AE570016F07A /* ECManagerBase.h */; };
+		92D272B91E84AE570016F07A /* ECMeetingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727D1E84AE570016F07A /* ECMeetingManager.h */; };
+		92D272BA1E84AE570016F07A /* ECMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727E1E84AE570016F07A /* ECMessageManager.h */; };
+		92D272BB1E84AE570016F07A /* ECVoIPCallManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2727F1E84AE570016F07A /* ECVoIPCallManager.h */; };
+		92D272BC1E84AE570016F07A /* ECVoIPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272801E84AE570016F07A /* ECVoIPManager.h */; };
+		92D272BD1E84AE570016F07A /* ECVoIPSetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272811E84AE570016F07A /* ECVoIPSetManager.h */; };
+		92D272BE1E84AE570016F07A /* CameraDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272831E84AE570016F07A /* CameraDeviceInfo.h */; };
+		92D272BF1E84AE570016F07A /* ECAudioConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272841E84AE570016F07A /* ECAudioConfig.h */; };
+		92D272C01E84AE570016F07A /* ECCallMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272851E84AE570016F07A /* ECCallMessageBody.h */; };
+		92D272C11E84AE570016F07A /* ECCreateMeetingParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272861E84AE570016F07A /* ECCreateMeetingParams.h */; };
+		92D272C21E84AE570016F07A /* ECError.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272871E84AE570016F07A /* ECError.h */; };
+		92D272C31E84AE570016F07A /* ECFileMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272881E84AE570016F07A /* ECFileMessageBody.h */; };
+		92D272C41E84AE570016F07A /* ECGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272891E84AE570016F07A /* ECGroup.h */; };
+		92D272C51E84AE570016F07A /* ECGroupMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728A1E84AE570016F07A /* ECGroupMatch.h */; };
+		92D272C61E84AE570016F07A /* ECGroupMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728B1E84AE570016F07A /* ECGroupMember.h */; };
+		92D272C71E84AE570016F07A /* ECGroupNoticeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728C1E84AE570016F07A /* ECGroupNoticeMessage.h */; };
+		92D272C81E84AE570016F07A /* ECGroupOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728D1E84AE570016F07A /* ECGroupOption.h */; };
+		92D272C91E84AE570016F07A /* ECImageMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728E1E84AE570016F07A /* ECImageMessageBody.h */; };
+		92D272CA1E84AE570016F07A /* ECInterphoneMeetingMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2728F1E84AE570016F07A /* ECInterphoneMeetingMsg.h */; };
+		92D272CB1E84AE570016F07A /* ECLocationMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272901E84AE570016F07A /* ECLocationMessageBody.h */; };
+		92D272CC1E84AE570016F07A /* ECLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272911E84AE570016F07A /* ECLoginInfo.h */; };
+		92D272CD1E84AE570016F07A /* ECMeetingMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272921E84AE570016F07A /* ECMeetingMember.h */; };
+		92D272CE1E84AE570016F07A /* ECMeetingRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272931E84AE570016F07A /* ECMeetingRoom.h */; };
+		92D272CF1E84AE570016F07A /* ECMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272941E84AE570016F07A /* ECMessage.h */; };
+		92D272D01E84AE570016F07A /* ECMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272951E84AE570016F07A /* ECMessageBody.h */; };
+		92D272D11E84AE570016F07A /* ECMessageNotifyMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272961E84AE570016F07A /* ECMessageNotifyMsg.h */; };
+		92D272D21E84AE570016F07A /* ECMultiDeviceState.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272971E84AE570016F07A /* ECMultiDeviceState.h */; };
+		92D272D31E84AE570016F07A /* ECMultiVideoMeetingMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272981E84AE570016F07A /* ECMultiVideoMeetingMsg.h */; };
+		92D272D41E84AE570016F07A /* ECMultiVoiceMeetingMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272991E84AE570016F07A /* ECMultiVoiceMeetingMsg.h */; };
+		92D272D51E84AE570016F07A /* ECPersonInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729A1E84AE570016F07A /* ECPersonInfo.h */; };
+		92D272D61E84AE570016F07A /* ECPreviewMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729B1E84AE570016F07A /* ECPreviewMessageBody.h */; };
+		92D272D71E84AE570016F07A /* ECProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729C1E84AE570016F07A /* ECProgressDelegate.h */; };
+		92D272D81E84AE570016F07A /* ECReadMessageMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729D1E84AE570016F07A /* ECReadMessageMember.h */; };
+		92D272D91E84AE570016F07A /* ECSountTouchConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729E1E84AE570016F07A /* ECSountTouchConfig.h */; };
+		92D272DA1E84AE570016F07A /* ECTextMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D2729F1E84AE570016F07A /* ECTextMessageBody.h */; };
+		92D272DB1E84AE570016F07A /* ECUserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A01E84AE570016F07A /* ECUserState.h */; };
+		92D272DC1E84AE570016F07A /* ECUserStateMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A11E84AE570016F07A /* ECUserStateMessageBody.h */; };
+		92D272DD1E84AE570016F07A /* ECVideoMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A21E84AE570016F07A /* ECVideoMessageBody.h */; };
+		92D272DE1E84AE570016F07A /* ECVoiceMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A31E84AE570016F07A /* ECVoiceMessageBody.h */; };
+		92D272DF1E84AE570016F07A /* NetworkStatistic.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A41E84AE570016F07A /* NetworkStatistic.h */; };
+		92D272E01E84AE570016F07A /* VoipCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272A51E84AE570016F07A /* VoipCall.h */; };
+		92D272EC1E84AE850016F07A /* DeviceChatHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272E41E84AE850016F07A /* DeviceChatHelper.h */; };
+		92D272ED1E84AE850016F07A /* DeviceChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272E51E84AE850016F07A /* DeviceChatHelper.m */; };
+		92D272EE1E84AE850016F07A /* DeviceDelegateHelper+Meeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272E61E84AE850016F07A /* DeviceDelegateHelper+Meeting.h */; };
+		92D272EF1E84AE850016F07A /* DeviceDelegateHelper+Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272E71E84AE850016F07A /* DeviceDelegateHelper+Meeting.m */; };
+		92D272F01E84AE850016F07A /* DeviceDelegateHelper+VoIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272E81E84AE850016F07A /* DeviceDelegateHelper+VoIP.h */; };
+		92D272F11E84AE850016F07A /* DeviceDelegateHelper+VoIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272E91E84AE850016F07A /* DeviceDelegateHelper+VoIP.m */; };
+		92D272F21E84AE850016F07A /* DeviceDelegateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D272EA1E84AE850016F07A /* DeviceDelegateHelper.h */; };
+		92D272F31E84AE850016F07A /* DeviceDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D272EB1E84AE850016F07A /* DeviceDelegateHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +112,73 @@
 		925FC5891E80D57700023110 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		92D270FB1E8371120016F07A /* PlusYtx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusYtx.h; sourceTree = SOURCE_ROOT; };
 		92D270FC1E8371460016F07A /* PlusYtx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusYtx.m; sourceTree = "<group>"; };
-		92D2712F1E83C1770016F07A /* RnSdk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RnSdk; sourceTree = "<group>"; };
-		92D271311E83C1810016F07A /* RnCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RnCode; sourceTree = "<group>"; };
+		92D272661E84AE570016F07A /* CCPSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCPSDKBundle.bundle; sourceTree = "<group>"; };
+		92D272681E84AE570016F07A /* ECChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECChatDelegate.h; sourceTree = "<group>"; };
+		92D272691E84AE570016F07A /* ECDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDelegateBase.h; sourceTree = "<group>"; };
+		92D2726A1E84AE570016F07A /* ECDeskDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeskDelegate.h; sourceTree = "<group>"; };
+		92D2726B1E84AE570016F07A /* ECGroupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupDelegate.h; sourceTree = "<group>"; };
+		92D2726C1E84AE570016F07A /* ECMeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingDelegate.h; sourceTree = "<group>"; };
+		92D2726D1E84AE570016F07A /* ECMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageDelegate.h; sourceTree = "<group>"; };
+		92D2726E1E84AE570016F07A /* ECNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNetworkDelegate.h; sourceTree = "<group>"; };
+		92D2726F1E84AE570016F07A /* ECSystemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSystemDelegate.h; sourceTree = "<group>"; };
+		92D272701E84AE570016F07A /* ECVoIPCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPCallDelegate.h; sourceTree = "<group>"; };
+		92D272711E84AE570016F07A /* ECDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDevice.h; sourceTree = "<group>"; };
+		92D272721E84AE570016F07A /* ECDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceDelegate.h; sourceTree = "<group>"; };
+		92D272731E84AE570016F07A /* ECDeviceHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceHeaders.h; sourceTree = "<group>"; };
+		92D272751E84AE570016F07A /* ECEnumDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECEnumDefs.h; sourceTree = "<group>"; };
+		92D272771E84AE570016F07A /* YTX_iOS_Full_SDK_v5.3.1r1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = YTX_iOS_Full_SDK_v5.3.1r1.a; sourceTree = "<group>"; };
+		92D272791E84AE570016F07A /* ECChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECChatManager.h; sourceTree = "<group>"; };
+		92D2727A1E84AE570016F07A /* ECDeskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeskManager.h; sourceTree = "<group>"; };
+		92D2727B1E84AE570016F07A /* ECGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupManager.h; sourceTree = "<group>"; };
+		92D2727C1E84AE570016F07A /* ECManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECManagerBase.h; sourceTree = "<group>"; };
+		92D2727D1E84AE570016F07A /* ECMeetingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingManager.h; sourceTree = "<group>"; };
+		92D2727E1E84AE570016F07A /* ECMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageManager.h; sourceTree = "<group>"; };
+		92D2727F1E84AE570016F07A /* ECVoIPCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPCallManager.h; sourceTree = "<group>"; };
+		92D272801E84AE570016F07A /* ECVoIPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPManager.h; sourceTree = "<group>"; };
+		92D272811E84AE570016F07A /* ECVoIPSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPSetManager.h; sourceTree = "<group>"; };
+		92D272831E84AE570016F07A /* CameraDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDeviceInfo.h; sourceTree = "<group>"; };
+		92D272841E84AE570016F07A /* ECAudioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAudioConfig.h; sourceTree = "<group>"; };
+		92D272851E84AE570016F07A /* ECCallMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCallMessageBody.h; sourceTree = "<group>"; };
+		92D272861E84AE570016F07A /* ECCreateMeetingParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCreateMeetingParams.h; sourceTree = "<group>"; };
+		92D272871E84AE570016F07A /* ECError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECError.h; sourceTree = "<group>"; };
+		92D272881E84AE570016F07A /* ECFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECFileMessageBody.h; sourceTree = "<group>"; };
+		92D272891E84AE570016F07A /* ECGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroup.h; sourceTree = "<group>"; };
+		92D2728A1E84AE570016F07A /* ECGroupMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMatch.h; sourceTree = "<group>"; };
+		92D2728B1E84AE570016F07A /* ECGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMember.h; sourceTree = "<group>"; };
+		92D2728C1E84AE570016F07A /* ECGroupNoticeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupNoticeMessage.h; sourceTree = "<group>"; };
+		92D2728D1E84AE570016F07A /* ECGroupOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupOption.h; sourceTree = "<group>"; };
+		92D2728E1E84AE570016F07A /* ECImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECImageMessageBody.h; sourceTree = "<group>"; };
+		92D2728F1E84AE570016F07A /* ECInterphoneMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECInterphoneMeetingMsg.h; sourceTree = "<group>"; };
+		92D272901E84AE570016F07A /* ECLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLocationMessageBody.h; sourceTree = "<group>"; };
+		92D272911E84AE570016F07A /* ECLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginInfo.h; sourceTree = "<group>"; };
+		92D272921E84AE570016F07A /* ECMeetingMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingMember.h; sourceTree = "<group>"; };
+		92D272931E84AE570016F07A /* ECMeetingRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingRoom.h; sourceTree = "<group>"; };
+		92D272941E84AE570016F07A /* ECMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessage.h; sourceTree = "<group>"; };
+		92D272951E84AE570016F07A /* ECMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageBody.h; sourceTree = "<group>"; };
+		92D272961E84AE570016F07A /* ECMessageNotifyMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageNotifyMsg.h; sourceTree = "<group>"; };
+		92D272971E84AE570016F07A /* ECMultiDeviceState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiDeviceState.h; sourceTree = "<group>"; };
+		92D272981E84AE570016F07A /* ECMultiVideoMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiVideoMeetingMsg.h; sourceTree = "<group>"; };
+		92D272991E84AE570016F07A /* ECMultiVoiceMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiVoiceMeetingMsg.h; sourceTree = "<group>"; };
+		92D2729A1E84AE570016F07A /* ECPersonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPersonInfo.h; sourceTree = "<group>"; };
+		92D2729B1E84AE570016F07A /* ECPreviewMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPreviewMessageBody.h; sourceTree = "<group>"; };
+		92D2729C1E84AE570016F07A /* ECProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressDelegate.h; sourceTree = "<group>"; };
+		92D2729D1E84AE570016F07A /* ECReadMessageMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECReadMessageMember.h; sourceTree = "<group>"; };
+		92D2729E1E84AE570016F07A /* ECSountTouchConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSountTouchConfig.h; sourceTree = "<group>"; };
+		92D2729F1E84AE570016F07A /* ECTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTextMessageBody.h; sourceTree = "<group>"; };
+		92D272A01E84AE570016F07A /* ECUserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUserState.h; sourceTree = "<group>"; };
+		92D272A11E84AE570016F07A /* ECUserStateMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUserStateMessageBody.h; sourceTree = "<group>"; };
+		92D272A21E84AE570016F07A /* ECVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVideoMessageBody.h; sourceTree = "<group>"; };
+		92D272A31E84AE570016F07A /* ECVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoiceMessageBody.h; sourceTree = "<group>"; };
+		92D272A41E84AE570016F07A /* NetworkStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatistic.h; sourceTree = "<group>"; };
+		92D272A51E84AE570016F07A /* VoipCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoipCall.h; sourceTree = "<group>"; };
+		92D272E41E84AE850016F07A /* DeviceChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceChatHelper.h; sourceTree = "<group>"; };
+		92D272E51E84AE850016F07A /* DeviceChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceChatHelper.m; sourceTree = "<group>"; };
+		92D272E61E84AE850016F07A /* DeviceDelegateHelper+Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceDelegateHelper+Meeting.h"; sourceTree = "<group>"; };
+		92D272E71E84AE850016F07A /* DeviceDelegateHelper+Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceDelegateHelper+Meeting.m"; sourceTree = "<group>"; };
+		92D272E81E84AE850016F07A /* DeviceDelegateHelper+VoIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceDelegateHelper+VoIP.h"; sourceTree = "<group>"; };
+		92D272E91E84AE850016F07A /* DeviceDelegateHelper+VoIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceDelegateHelper+VoIP.m"; sourceTree = "<group>"; };
+		92D272EA1E84AE850016F07A /* DeviceDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDelegateHelper.h; sourceTree = "<group>"; };
+		92D272EB1E84AE850016F07A /* DeviceDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDelegateHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +195,7 @@
 				925FC57E1E80D55000023110 /* CFNetwork.framework in Frameworks */,
 				925FC5601E7FE0CB00023110 /* MediaPlayer.framework in Frameworks */,
 				925FC55E1E7FE0C400023110 /* CoreTelephony.framework in Frameworks */,
+				92D272B41E84AE570016F07A /* YTX_iOS_Full_SDK_v5.3.1r1.a in Frameworks */,
 				925FC55C1E7FE0BB00023110 /* libstdc++.6.0.9.tbd in Frameworks */,
 				925FC55A1E7FE0AE00023110 /* libz.tbd in Frameworks */,
 				925FC5581E7FE0A000023110 /* libsqlite3.tbd in Frameworks */,
@@ -79,8 +210,8 @@
 		925FC4E01E7FD79400023110 = {
 			isa = PBXGroup;
 			children = (
-				92D271311E83C1810016F07A /* RnCode */,
-				92D2712F1E83C1770016F07A /* RnSdk */,
+				92D272E11E84AE850016F07A /* RnCode */,
+				92D272641E84AE570016F07A /* RnSdk */,
 				925FC4EC1E7FD79400023110 /* UhutuRnPlus */,
 				925FC4EB1E7FD79400023110 /* Products */,
 				925FC5521E7FE08900023110 /* Frameworks */,
@@ -127,6 +258,151 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		92D272641E84AE570016F07A /* RnSdk */ = {
+			isa = PBXGroup;
+			children = (
+				92D272651E84AE570016F07A /* YTX_iOS_Full_SDK */,
+			);
+			path = RnSdk;
+			sourceTree = "<group>";
+		};
+		92D272651E84AE570016F07A /* YTX_iOS_Full_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				92D272661E84AE570016F07A /* CCPSDKBundle.bundle */,
+				92D272671E84AE570016F07A /* Delegate */,
+				92D272711E84AE570016F07A /* ECDevice.h */,
+				92D272721E84AE570016F07A /* ECDeviceDelegate.h */,
+				92D272731E84AE570016F07A /* ECDeviceHeaders.h */,
+				92D272741E84AE570016F07A /* enums */,
+				92D272761E84AE570016F07A /* lib */,
+				92D272781E84AE570016F07A /* Manager */,
+				92D272821E84AE570016F07A /* types */,
+			);
+			path = YTX_iOS_Full_SDK;
+			sourceTree = "<group>";
+		};
+		92D272671E84AE570016F07A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				92D272681E84AE570016F07A /* ECChatDelegate.h */,
+				92D272691E84AE570016F07A /* ECDelegateBase.h */,
+				92D2726A1E84AE570016F07A /* ECDeskDelegate.h */,
+				92D2726B1E84AE570016F07A /* ECGroupDelegate.h */,
+				92D2726C1E84AE570016F07A /* ECMeetingDelegate.h */,
+				92D2726D1E84AE570016F07A /* ECMessageDelegate.h */,
+				92D2726E1E84AE570016F07A /* ECNetworkDelegate.h */,
+				92D2726F1E84AE570016F07A /* ECSystemDelegate.h */,
+				92D272701E84AE570016F07A /* ECVoIPCallDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		92D272741E84AE570016F07A /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				92D272751E84AE570016F07A /* ECEnumDefs.h */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		92D272761E84AE570016F07A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				92D272771E84AE570016F07A /* YTX_iOS_Full_SDK_v5.3.1r1.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		92D272781E84AE570016F07A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				92D272791E84AE570016F07A /* ECChatManager.h */,
+				92D2727A1E84AE570016F07A /* ECDeskManager.h */,
+				92D2727B1E84AE570016F07A /* ECGroupManager.h */,
+				92D2727C1E84AE570016F07A /* ECManagerBase.h */,
+				92D2727D1E84AE570016F07A /* ECMeetingManager.h */,
+				92D2727E1E84AE570016F07A /* ECMessageManager.h */,
+				92D2727F1E84AE570016F07A /* ECVoIPCallManager.h */,
+				92D272801E84AE570016F07A /* ECVoIPManager.h */,
+				92D272811E84AE570016F07A /* ECVoIPSetManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		92D272821E84AE570016F07A /* types */ = {
+			isa = PBXGroup;
+			children = (
+				92D272831E84AE570016F07A /* CameraDeviceInfo.h */,
+				92D272841E84AE570016F07A /* ECAudioConfig.h */,
+				92D272851E84AE570016F07A /* ECCallMessageBody.h */,
+				92D272861E84AE570016F07A /* ECCreateMeetingParams.h */,
+				92D272871E84AE570016F07A /* ECError.h */,
+				92D272881E84AE570016F07A /* ECFileMessageBody.h */,
+				92D272891E84AE570016F07A /* ECGroup.h */,
+				92D2728A1E84AE570016F07A /* ECGroupMatch.h */,
+				92D2728B1E84AE570016F07A /* ECGroupMember.h */,
+				92D2728C1E84AE570016F07A /* ECGroupNoticeMessage.h */,
+				92D2728D1E84AE570016F07A /* ECGroupOption.h */,
+				92D2728E1E84AE570016F07A /* ECImageMessageBody.h */,
+				92D2728F1E84AE570016F07A /* ECInterphoneMeetingMsg.h */,
+				92D272901E84AE570016F07A /* ECLocationMessageBody.h */,
+				92D272911E84AE570016F07A /* ECLoginInfo.h */,
+				92D272921E84AE570016F07A /* ECMeetingMember.h */,
+				92D272931E84AE570016F07A /* ECMeetingRoom.h */,
+				92D272941E84AE570016F07A /* ECMessage.h */,
+				92D272951E84AE570016F07A /* ECMessageBody.h */,
+				92D272961E84AE570016F07A /* ECMessageNotifyMsg.h */,
+				92D272971E84AE570016F07A /* ECMultiDeviceState.h */,
+				92D272981E84AE570016F07A /* ECMultiVideoMeetingMsg.h */,
+				92D272991E84AE570016F07A /* ECMultiVoiceMeetingMsg.h */,
+				92D2729A1E84AE570016F07A /* ECPersonInfo.h */,
+				92D2729B1E84AE570016F07A /* ECPreviewMessageBody.h */,
+				92D2729C1E84AE570016F07A /* ECProgressDelegate.h */,
+				92D2729D1E84AE570016F07A /* ECReadMessageMember.h */,
+				92D2729E1E84AE570016F07A /* ECSountTouchConfig.h */,
+				92D2729F1E84AE570016F07A /* ECTextMessageBody.h */,
+				92D272A01E84AE570016F07A /* ECUserState.h */,
+				92D272A11E84AE570016F07A /* ECUserStateMessageBody.h */,
+				92D272A21E84AE570016F07A /* ECVideoMessageBody.h */,
+				92D272A31E84AE570016F07A /* ECVoiceMessageBody.h */,
+				92D272A41E84AE570016F07A /* NetworkStatistic.h */,
+				92D272A51E84AE570016F07A /* VoipCall.h */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		92D272E11E84AE850016F07A /* RnCode */ = {
+			isa = PBXGroup;
+			children = (
+				92D272E21E84AE850016F07A /* Ytx */,
+			);
+			path = RnCode;
+			sourceTree = "<group>";
+		};
+		92D272E21E84AE850016F07A /* Ytx */ = {
+			isa = PBXGroup;
+			children = (
+				92D272E31E84AE850016F07A /* DeviceDelegateHelper */,
+			);
+			path = Ytx;
+			sourceTree = "<group>";
+		};
+		92D272E31E84AE850016F07A /* DeviceDelegateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				92D272E41E84AE850016F07A /* DeviceChatHelper.h */,
+				92D272E51E84AE850016F07A /* DeviceChatHelper.m */,
+				92D272E61E84AE850016F07A /* DeviceDelegateHelper+Meeting.h */,
+				92D272E71E84AE850016F07A /* DeviceDelegateHelper+Meeting.m */,
+				92D272E81E84AE850016F07A /* DeviceDelegateHelper+VoIP.h */,
+				92D272E91E84AE850016F07A /* DeviceDelegateHelper+VoIP.m */,
+				92D272EA1E84AE850016F07A /* DeviceDelegateHelper.h */,
+				92D272EB1E84AE850016F07A /* DeviceDelegateHelper.m */,
+			);
+			path = DeviceDelegateHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,7 +410,68 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D272AE1E84AE570016F07A /* ECSystemDelegate.h in Headers */,
+				92D272A91E84AE570016F07A /* ECDeskDelegate.h in Headers */,
+				92D272D01E84AE570016F07A /* ECMessageBody.h in Headers */,
+				92D272D21E84AE570016F07A /* ECMultiDeviceState.h in Headers */,
+				92D272BA1E84AE570016F07A /* ECMessageManager.h in Headers */,
+				92D272D11E84AE570016F07A /* ECMessageNotifyMsg.h in Headers */,
+				92D272A71E84AE570016F07A /* ECChatDelegate.h in Headers */,
+				92D272DB1E84AE570016F07A /* ECUserState.h in Headers */,
+				92D272C71E84AE570016F07A /* ECGroupNoticeMessage.h in Headers */,
+				92D272B31E84AE570016F07A /* ECEnumDefs.h in Headers */,
+				92D272C41E84AE570016F07A /* ECGroup.h in Headers */,
+				92D272BC1E84AE570016F07A /* ECVoIPManager.h in Headers */,
+				92D272CD1E84AE570016F07A /* ECMeetingMember.h in Headers */,
+				92D272A81E84AE570016F07A /* ECDelegateBase.h in Headers */,
+				92D272B71E84AE570016F07A /* ECGroupManager.h in Headers */,
+				92D272D61E84AE570016F07A /* ECPreviewMessageBody.h in Headers */,
+				92D272E01E84AE570016F07A /* VoipCall.h in Headers */,
+				92D272BD1E84AE570016F07A /* ECVoIPSetManager.h in Headers */,
+				92D272B91E84AE570016F07A /* ECMeetingManager.h in Headers */,
+				92D272BB1E84AE570016F07A /* ECVoIPCallManager.h in Headers */,
+				92D272AC1E84AE570016F07A /* ECMessageDelegate.h in Headers */,
+				92D272C11E84AE570016F07A /* ECCreateMeetingParams.h in Headers */,
+				92D272CA1E84AE570016F07A /* ECInterphoneMeetingMsg.h in Headers */,
+				92D272AB1E84AE570016F07A /* ECMeetingDelegate.h in Headers */,
+				92D272D81E84AE570016F07A /* ECReadMessageMember.h in Headers */,
+				92D272C61E84AE570016F07A /* ECGroupMember.h in Headers */,
+				92D272DF1E84AE570016F07A /* NetworkStatistic.h in Headers */,
+				92D272C81E84AE570016F07A /* ECGroupOption.h in Headers */,
+				92D272CE1E84AE570016F07A /* ECMeetingRoom.h in Headers */,
 				925FC4EF1E7FD79400023110 /* UhutuRnPlus.h in Headers */,
+				92D272C91E84AE570016F07A /* ECImageMessageBody.h in Headers */,
+				92D272DA1E84AE570016F07A /* ECTextMessageBody.h in Headers */,
+				92D272B61E84AE570016F07A /* ECDeskManager.h in Headers */,
+				92D272AD1E84AE570016F07A /* ECNetworkDelegate.h in Headers */,
+				92D272D71E84AE570016F07A /* ECProgressDelegate.h in Headers */,
+				92D272EE1E84AE850016F07A /* DeviceDelegateHelper+Meeting.h in Headers */,
+				92D272B11E84AE570016F07A /* ECDeviceDelegate.h in Headers */,
+				92D272F01E84AE850016F07A /* DeviceDelegateHelper+VoIP.h in Headers */,
+				92D272DE1E84AE570016F07A /* ECVoiceMessageBody.h in Headers */,
+				92D272D41E84AE570016F07A /* ECMultiVoiceMeetingMsg.h in Headers */,
+				92D272CB1E84AE570016F07A /* ECLocationMessageBody.h in Headers */,
+				92D272C21E84AE570016F07A /* ECError.h in Headers */,
+				92D272C51E84AE570016F07A /* ECGroupMatch.h in Headers */,
+				92D272D91E84AE570016F07A /* ECSountTouchConfig.h in Headers */,
+				92D272D31E84AE570016F07A /* ECMultiVideoMeetingMsg.h in Headers */,
+				92D272AA1E84AE570016F07A /* ECGroupDelegate.h in Headers */,
+				92D272B21E84AE570016F07A /* ECDeviceHeaders.h in Headers */,
+				92D272B01E84AE570016F07A /* ECDevice.h in Headers */,
+				92D272BE1E84AE570016F07A /* CameraDeviceInfo.h in Headers */,
+				92D272B51E84AE570016F07A /* ECChatManager.h in Headers */,
+				92D272CF1E84AE570016F07A /* ECMessage.h in Headers */,
+				92D272F21E84AE850016F07A /* DeviceDelegateHelper.h in Headers */,
+				92D272EC1E84AE850016F07A /* DeviceChatHelper.h in Headers */,
+				92D272D51E84AE570016F07A /* ECPersonInfo.h in Headers */,
+				92D272CC1E84AE570016F07A /* ECLoginInfo.h in Headers */,
+				92D272AF1E84AE570016F07A /* ECVoIPCallDelegate.h in Headers */,
+				92D272C01E84AE570016F07A /* ECCallMessageBody.h in Headers */,
+				92D272BF1E84AE570016F07A /* ECAudioConfig.h in Headers */,
+				92D272C31E84AE570016F07A /* ECFileMessageBody.h in Headers */,
+				92D272DC1E84AE570016F07A /* ECUserStateMessageBody.h in Headers */,
+				92D272DD1E84AE570016F07A /* ECVideoMessageBody.h in Headers */,
+				92D272B81E84AE570016F07A /* ECManagerBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D271301E83C1780016F07A /* RnSdk in Resources */,
-				92D271321E83C1810016F07A /* RnCode in Resources */,
+				92D272A61E84AE570016F07A /* CCPSDKBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +545,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D270FD1E8371460016F07A /* PlusYtx.m in Sources */,
+				92D272ED1E84AE850016F07A /* DeviceChatHelper.m in Sources */,
+				92D272F11E84AE850016F07A /* DeviceDelegateHelper+VoIP.m in Sources */,
+				92D272EF1E84AE850016F07A /* DeviceDelegateHelper+Meeting.m in Sources */,
+				92D272F31E84AE850016F07A /* DeviceDelegateHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +659,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
 				INFOPLIST_FILE = UhutuRnPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTX_iOS_Full_SDK/lib",
+					"$(PROJECT_DIR)/RnSdk/YTX_iOS_Full_SDK/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uhutu.rn.UhutuRnPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -336,9 +682,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
 				INFOPLIST_FILE = UhutuRnPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTX_iOS_Full_SDK/lib",
+					"$(PROJECT_DIR)/RnSdk/YTX_iOS_Full_SDK/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uhutu.rn.UhutuRnPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -12,6 +12,8 @@ export default class PlusYtx extends Component {
 
   
 
+  
+
   render() {
     
 
@@ -22,7 +24,3 @@ export default class PlusYtx extends Component {
 }
 
 
-
-const styles = StyleSheet.create({
-  base: {},
-});
